@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 void main(List<String> args) => runApp(
   MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Scaffold(
       backgroundColor: Color(0xFF24263B),
       appBar: AppBar(
@@ -11,7 +12,7 @@ void main(List<String> args) => runApp(
           color: Colors.white,
           fontSize: 20,
         ),
-        title: Text('BMI Calculator'),
+        title: Text('Calculadora de IMC'),
         backgroundColor: Color(0xFF1C2135),
         centerTitle: true,
       ),
